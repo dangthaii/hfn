@@ -1,18 +1,10 @@
-import { headers } from "next/headers";
 import HomePage from "./components/HomePage";
+import { GET } from "./api/data/route";
 
 async function getData() {
-  const host = headers().get("host");
-  const protocal = process?.env.NODE_ENV === "development" ? "http" : "https";
-  const res = await fetch(`${protocal}://${host}/api/data`, {
-    cache: "no-store", // hoặc { next: { revalidate: 3600 } } để cache
-  });
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-
-  return res.json();
+  const response = await GET();
+  const data = await response.json();
+  return data;
 }
 
 export default async function Home() {
