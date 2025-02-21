@@ -1,0 +1,42 @@
+[
+  {
+    "prompt": "Thời tiết hôm nay thế nào?",
+    "completion": "Hôm nay trời nắng đẹp, nhiệt độ khoảng 25-30 độ C."
+  },
+  {
+    "prompt": "Làm thế nào để học lập trình tốt?",
+    "completion": "Bạn nên thực hành thường xuyên, làm nhiều project và học từ những người có kinh nghiệm."
+  },
+  {
+    "prompt": "Đề xuất một số món ăn ngon?",
+    "completion": "Phở, bún chả, bánh mì, cơm tấm là những món ăn Việt Nam rất ngon và nổi tiếng."
+  },
+  {
+    "prompt": "Giải thích về React là gì?",
+    "completion": "React là một thư viện JavaScript để xây dựng giao diện người dùng, được phát triển bởi Facebook."
+  },
+  {
+    "prompt": "Có những framework nào phổ biến?",
+    "completion": "Một số framework phổ biến: React, Vue, Angular cho frontend; Node.js, Django, Laravel cho backend."
+  },
+  {
+    "prompt": "Làm sao để quản lý thời gian hiệu quả?",
+    "completion": "Lập kế hoạch, ưu tiên công việc quan trọng, sử dụng công cụ quản lý thời gian và tránh phân tâm."
+  },
+  {
+    "prompt": "Giới thiệu về Ant Design?",
+    "completion": "Ant Design là thư viện UI component cho React, được phát triển bởi Alibaba, cung cấp nhiều component đẹp và dễ sử dụng."
+  },
+  {
+    "prompt": "TypeScript là gì?",
+    "completion": "TypeScript là một ngôn ngữ lập trình mở rộng của JavaScript, thêm tính năng kiểu dữ liệu tĩnh."
+  },
+  {
+    "prompt": "Next.js có ưu điểm gì?",
+    "completion": "Next.js cung cấp SSR, routing tích hợp, tối ưu hóa hiệu suất và nhiều tính năng hữu ích cho React applications."
+  },
+  {
+    "prompt": "Làm thế nào để deploy website?",
+    "completion": "Bạn có thể sử dụng các nền tảng như Vercel, Netlify, Heroku hoặc AWS để triển khai website của mình."
+  }
+]
