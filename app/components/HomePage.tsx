@@ -10,10 +10,8 @@ interface HomePageProps {
 
 const HomePage: React.FC<HomePageProps> = ({ data }) => {
   return (
-    <div className="px-6 py-8 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">
-        Danh sách Prompt và Completion
-      </h1>
+    <div className="px-6 py-8 max-w-4xl mx-auto">
+      <h1 className="text-3xl font-bold mb-8 text-center">Heartfulness Way</h1>
       <DataList data={data} />
     </div>
   );
